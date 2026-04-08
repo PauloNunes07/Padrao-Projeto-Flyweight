@@ -5,7 +5,7 @@ import interfaces.Bloco;
 public class TipoBloco implements Bloco {
     private final String nome;
     private final String textura;
-    private boolean solido;
+    private final boolean solido;
 
     public TipoBloco(String nome, String textura, boolean solido) {
         this.nome = nome;
